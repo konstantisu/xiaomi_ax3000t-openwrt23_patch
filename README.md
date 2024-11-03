@@ -3,7 +3,7 @@ Simple compilation without external packages, similar to the official build plea
 https://drive.google.com/drive/folders/1lsYUxoyvi-zqXln8qlYRa4Y5rIMDfy-P<br>
 
 # What's New?
-- W25N01KV spi-nand supported in the firmware.
+- W25N01KV spi-nand supported in the firmware (OOB=64).
 https://github.com/openwrt/openwrt/pull/16669
 - W25N01KV spi-nand supported in the OpenWrt U-Boot (ubootmod).
 'ubootmod'firmware type can be installed to the router with Winbond spi-nand.
@@ -19,6 +19,7 @@ https://github.com/openwrt/openwrt/commit/089c25f466dd496d165a02ab026fe55dbb802a
 https://github.com/openwrt/openwrt/blob/master/target/linux/generic/pending-6.6/735-net-ethernet-mtk_eth_soc-fix-memory-corruption-durin.patch
 - Continue to support dts configuration for '112M NMBM' type firmware (as ImmortalWrt).
 You can find MTK U-Boot for this firmware in the Google Drive by the link above.
+- List of packages in the build were changes: wget-ssl, ipset and ip-full were added; dnsmasq replaced by the dnsmasq-full; l2tp protocol supports added
 
 # Warning
 AN8855 support not included in current patch!
